@@ -6,12 +6,12 @@
 
 body {
   font-family: 'Roboto';
-  color: white;
+  color: yellow;
   background: url("../images/minions.jpg")
 }
 
 h1, h2 {
-  color: #d8b362;
+  color: yellow;
 }
 
 button {
@@ -28,7 +28,7 @@ button {
   position: relative;
   border-radius: 50px;
   border: 2px solid #fff;
-  color: #fff;
+  color: yellow;
   overflow: hidden;
 }
 
@@ -65,12 +65,13 @@ button {
 
 .character-info {
   position: relative;
-  width: 40%;
+  width: 45%;
   margin: 10px;
   padding: 10px;
   text-align: left;
   border: solid white 2px;
   border-radius: 20px;
+  
 }
 
 .character-info div span {
@@ -104,4 +105,19 @@ button {
 
 .submit-button {
   margin: 10px 0 0 120px;
+}
+.new-character-div{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  color:yellow;
+  font-size: 30px;
+
+}
+.new-character-div .name{ 
+  font-size: 45px
+
 }
